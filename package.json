@@ -1,0 +1,23 @@
+{
+  "name": "postgres-migrate",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Rafael Roque Brandino <rbrandino@gmail.com>",
+  "scripts": {
+    "start": "node src/index.js",
+    "update": "yarn upgrade",
+    "reinstall": "yarn cache clean && yarn install"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "make-runnable": "^1.3.6",
+    "moment": "^2.24.0",
+    "pg": "^7.12.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.3"
+  }
+}
