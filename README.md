@@ -30,5 +30,4 @@ yarn start
 
 ## Sobre o arquivo `.sql`
 
-O Arquivo gerado não leva em consideração a ordem em que os registros devem ser inseridos ou atualizados no banco de dados. 
-Por tanto, desative as FK's do banco de dados em que será executado o script
+O Arquivo gerado não leva em consideração a ordem em que os registros devem ser inseridos ou atualizados no banco de dados, por esse motivo, é necessário desativar as FK's do banco de dados onde será executado o script
